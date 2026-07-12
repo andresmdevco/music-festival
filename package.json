@@ -20,7 +20,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css"
   },
   "devDependencies": {
     "sass": "^1.101.0"
