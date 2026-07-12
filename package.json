@@ -2,6 +2,7 @@
   "name": "festival-musica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS Y NPM",
+  "type":"module",
   "keywords": [
     "SASS",
     "NPM",
@@ -17,12 +18,13 @@
   },
   "license": "ISC",
   "author": "Andrés Muñoz",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola"
   },
   "devDependencies": {
+    "gulp": "^5.0.1",
     "sass": "^1.101.0"
   }
 }
