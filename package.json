@@ -2,7 +2,7 @@
   "name": "festival-musica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS Y NPM",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "SASS",
     "NPM",
@@ -21,10 +21,11 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch src/scss:build/css",
-    "hola": "gulp hola"
+    "css": "gulp css"
   },
   "devDependencies": {
     "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.101.0"
   }
 }
