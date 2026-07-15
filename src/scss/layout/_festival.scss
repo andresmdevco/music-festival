@@ -5,10 +5,7 @@
     @include m.contenedor;
 
     @include m.desktop {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5rem;
-        align-items: center;
+        @include m.grid(2, 5rem);
     }
 }
 
