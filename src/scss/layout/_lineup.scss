@@ -29,3 +29,14 @@
         text-align: center;
     }
 }
+
+.calendario {
+    @include m.resetear-lista;
+    li {
+        padding: 2.5rem;
+        font-weight: 700;
+        span {
+            font-weight: 400;
+        }
+    }
+}

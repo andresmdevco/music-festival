@@ -482,6 +482,21 @@ body > section {
   font-weight: 700;
 }
 
+.bg-amarillo {
+  background-color: #fdda00;
+}
+.bg-amarillo li:nth-child(odd) {
+  /* background-color: lighten(v.$amarillo, 5%); */
+  background-color: rgb(255, 222.9743083004, 23.5);
+}
+
+.bg-verde {
+  background-color: #4CB8B3;
+}
+.bg-verde li:nth-child(odd) {
+  background-color: rgb(94.258, 191.242, 186.752);
+}
+
 .lineup {
   background-color: #F53756;
 }
@@ -516,4 +531,17 @@ body > section {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+}
+
+.calendario {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.calendario li {
+  padding: 2.5rem;
+  font-weight: 700;
+}
+.calendario li span {
+  font-weight: 400;
 }
