@@ -482,21 +482,6 @@ body > section {
   font-weight: 700;
 }
 
-.bg-amarillo {
-  background-color: #fdda00;
-}
-.bg-amarillo li:nth-child(odd) {
-  /* background-color: lighten(v.$amarillo, 5%); */
-  background-color: rgb(255, 222.9743083004, 23.5);
-}
-
-.bg-verde {
-  background-color: #4CB8B3;
-}
-.bg-verde li:nth-child(odd) {
-  background-color: rgb(94.258, 191.242, 186.752);
-}
-
 .lineup {
   background-color: #F53756;
 }
@@ -544,6 +529,21 @@ body > section {
 }
 .calendario li span {
   font-weight: 400;
+}
+
+.bg-amarillo {
+  background-color: #fdda00;
+}
+.bg-amarillo li:nth-child(odd) {
+  /* background-color: lighten(v.$amarillo, 5%); */
+  background-color: rgb(255, 222.9743083004, 23.5);
+}
+
+.bg-verde {
+  background-color: #4CB8B3;
+}
+.bg-verde li:nth-child(odd) {
+  background-color: rgb(94.258, 191.242, 186.752);
 }
 
 .contenedor-boletos {
@@ -621,4 +621,14 @@ body > section {
 }
 .pase-footer p:hover {
   background-color: rgb(58.5, 23.5, 75.5);
+}
+
+.footer {
+  background-color: #F53756;
+  padding: 2rem 0;
+}
+.footer p {
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
 }
