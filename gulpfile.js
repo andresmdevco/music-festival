@@ -4,6 +4,13 @@ import gulpSass from 'gulp-sass'
 
 const sass = gulpSass(dartSass)
 
+export function imagenes( done ) {
+    src('src/img/**/*')
+        .pipe( dest('build/img'))
+
+    done()
+}
+
 export function js( done ) {
     src('src/js/app.js')
         .pipe( dest('build/js') )
@@ -24,4 +31,4 @@ export function dev() {
     watch('src/js/**/*.js', js)
 }
 
-export default series( js, css, dev )
+export default series( imagenes, js, css, dev )
