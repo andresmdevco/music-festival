@@ -25,6 +25,7 @@
 .escenario {
     padding-top: 2rem;
     border-radius: 1rem;
+    overflow: hidden;
     .nombre-escenario {
         font-size: 3rem;
         font-weight: 900;
@@ -46,17 +47,20 @@
     }
 }
 
-.bg-verde{
-    background-color: v.$verde;
+.bg-azul {
+    background-color: v.$azul;
     li:nth-child(odd) {
-        /* background-color: lighten(v.$amarillo, 5%); */
-        background-color: color.adjust(v.$verde, $lightness: 5%);
+        /* background-color: lighten(v.$azul, 5%); */
+        background-color: color.adjust(v.$azul, $lightness: 5%);
     }
 }
 
-.bg-morado {
+.border-verde {
+    background-color: v.$verde;
+    border: 2px solid v.$verde;
+}
+
+.border-morado {
     background-color: v.$morado;
-    li:nth-child(odd) {
-        background-color: color.adjust(v.$morado, $lightness: 5%);
-    }
+    border: 2px solid v.$morado;
 }
