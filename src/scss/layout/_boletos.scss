@@ -3,7 +3,7 @@
 @use 'sass:color';
 
 .contenedor-boletos {
-    background-color: v.$verde;
+    background-color: v.$azul;
     h3 {
         color: v.$blanco;
     }
@@ -39,7 +39,7 @@
         }
     }
     &-header {
-        background-color: v.$rosa;
+        background-color: v.$morado;
         p {
             text-transform: uppercase;
             font-size: 2.2rem;
