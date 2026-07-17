@@ -3,13 +3,14 @@
 @use 'sass:color';
 
 .lineup {
-    background-color: v.$rosa;
+    background-color: v.$azul;
     h3, .dia {
         text-align: center;
         color: v.$blanco;
     }
     .dia {
         font-size: 3rem;
+        font-weight: 500;
         text-transform: uppercase;
     }
 }
@@ -23,17 +24,20 @@
 
 .escenario {
     padding-top: 2rem;
+    border-radius: 1rem;
     .nombre-escenario {
         font-size: 3rem;
         font-weight: 900;
         text-transform: uppercase;
         text-align: center;
+        color: v.$blanco;
     }
 }
 
 .calendario {
     @include m.resetear-lista;
     li {
+        color: v.$blanco;
         padding: 2.5rem;
         font-weight: 700;
         span {
@@ -43,16 +47,16 @@
 }
 
 .bg-amarillo {
-    background-color: v.$amarillo;
+    background-color: v.$verde;
     li:nth-child(odd) {
         /* background-color: lighten(v.$amarillo, 5%); */
-        background-color: color.adjust(v.$amarillo, $lightness: 5%);
+        background-color: color.adjust(v.$verde, $lightness: 5%);
     }
 }
 
 .bg-verde {
-    background-color: v.$verde;
+    background-color: v.$morado;
     li:nth-child(odd) {
-        background-color: color.adjust(v.$verde, $lightness: 5%);
+        background-color: color.adjust(v.$morado, $lightness: 5%);
     }
 }
