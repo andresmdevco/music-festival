@@ -46,7 +46,7 @@
     }
 }
 
-.bg-amarillo {
+.bg-verde{
     background-color: v.$verde;
     li:nth-child(odd) {
         /* background-color: lighten(v.$amarillo, 5%); */
@@ -54,7 +54,7 @@
     }
 }
 
-.bg-verde {
+.bg-morado {
     background-color: v.$morado;
     li:nth-child(odd) {
         background-color: color.adjust(v.$morado, $lightness: 5%);
