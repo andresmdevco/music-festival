@@ -64,7 +64,7 @@ Los estilos se organizan en dos carpetas principales usando `@use` y `@forward` 
 - Automatización del flujo de trabajo frontend con Gulp (tareas, watchers y pipelines de imágenes).
 - Diseño responsivo mobile-first con breakpoints definidos como variables.
 
-## 🚀 Instalación y uso
+## 🚀 Como ejecutar el proyecto
  
 1. Clonar el repositorio:
 ```bash
