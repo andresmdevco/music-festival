@@ -34,7 +34,7 @@ Además:
 - 🖼️ **Optimización automática de imágenes**: cada imagen se procesa y exporta en `.jpg`, `.webp` y `.avif`, sirviendo el formato más eficiente que soporte el navegador mediante `<picture>`.
 - 📱 **Diseño responsivo** con mixins de media queries (`telefono`, `tablet`, `desktop`, `desktopXL`).
  
-## 🏗️ Arquitectura SCSS
+## 📂 Estructura SCSS
  
 Los estilos se organizan en dos carpetas principales usando `@use` y `@forward` para modularizar:
 
@@ -53,6 +53,17 @@ Los estilos se organizan en dos carpetas principales usando `@use` y `@forward` 
 | `dev`       | Observa cambios en SCSS, JS e imágenes y recompila automáticamente          |
 | `default`   | Ejecuta `crop → js → css → imagenes → dev` en secuencia                     |
  
+## 🧠 Conceptos practicados
+ 
+- Manipulación del DOM y generación dinámica de elementos (galería y modal) con JavaScript.
+- Detección de la sección activa durante el scroll (*scrollspy*) y navegación con `scrollIntoView`.
+- Uso de `IntersectionObserver`/`getBoundingClientRect` para alternar clases según la posición del scroll.
+- Arquitectura SCSS modular con `@use` y `@forward` (namespacing, evitar contaminación global).
+- Creación de mixins reutilizables para media queries y layouts en grid.
+- Optimización de imágenes para web: generación automática de formatos modernos (WebP, AVIF) junto a un fallback JPG.
+- Automatización del flujo de trabajo frontend con Gulp (tareas, watchers y pipelines de imágenes).
+- Diseño responsivo mobile-first con breakpoints definidos como variables.
+
 ## 🚀 Instalación y uso
  
 1. Clonar el repositorio:
@@ -73,13 +84,3 @@ Los estilos se organizan en dos carpetas principales usando `@use` y `@forward` 
  
 4. Abrir `index.html` en el navegador.
 
-## 🧠 Conceptos practicados
- 
-- Manipulación del DOM y generación dinámica de elementos (galería y modal) con JavaScript.
-- Detección de la sección activa durante el scroll (*scrollspy*) y navegación con `scrollIntoView`.
-- Uso de `IntersectionObserver`/`getBoundingClientRect` para alternar clases según la posición del scroll.
-- Arquitectura SCSS modular con `@use` y `@forward` (namespacing, evitar contaminación global).
-- Creación de mixins reutilizables para media queries y layouts en grid.
-- Optimización de imágenes para web: generación automática de formatos modernos (WebP, AVIF) junto a un fallback JPG.
-- Automatización del flujo de trabajo frontend con Gulp (tareas, watchers y pipelines de imágenes).
-- Diseño responsivo mobile-first con breakpoints definidos como variables.
