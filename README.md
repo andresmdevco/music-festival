@@ -11,7 +11,7 @@ Página web responsiva para un festival de música electrónica (Techno & EDM), 
 ## 👀 Vista previa
 https://github.com/user-attachments/assets/f1757fa1-d6f5-4460-b0db-a82069c626d4
 
-## 🛠️ Tecnologías Usadas
+## 🛠️ Tecnologías Utilizadas
  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
