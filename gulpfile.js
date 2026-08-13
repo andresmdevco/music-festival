@@ -77,6 +77,7 @@ function procesarImagenes(file, outputSubDir) {
     const baseName = path.basename(file, path.extname(file))
     const extName = path.extname(file)
     const outputFile = path.join(outputSubDir, `${baseName}${extName}`)
+    const outputFilePng = path.join(outputSubDir, `${baseName}.png`)
     const outputFileWebp = path.join(outputSubDir, `${baseName}.webp`)
     const outputFileAvif = path.join(outputSubDir, `${baseName}.avif`)
 
@@ -84,6 +85,9 @@ function procesarImagenes(file, outputSubDir) {
     sharp(file).jpeg(options).toFile(outputFile)
     sharp(file).webp(options).toFile(outputFileWebp)
     sharp(file).avif().toFile(outputFileAvif)
+    if (extName === '.png') {
+        sharp(file).png().toFile(outputFilePng)
+    }
 }
 
 export function dev() {
