@@ -6,7 +6,7 @@ Página web responsiva para un festival de música electrónica (Techno & EDM), 
  
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-🔗 [music-festival-delta.vercel.app](https://music-festival-delta.vercel.app/)
+🔗 [https://techno-edm-festival.vercel.app](https://techno-edm-festival.vercel.app/)
 
 ## 👀 Vista previa
 https://github.com/user-attachments/assets/f1757fa1-d6f5-4460-b0db-a82069c626d4
