@@ -1,4 +1,4 @@
-# 🎧 Music Festival
+# 🎧 Techno & EDM Festival
  
 Página web responsiva para un festival de música electrónica (Techno & EDM), maquetada con **HTML5 + SCSS (arquitectura modular)** y con interactividad en **JavaScript**. El flujo de construcción está automatizado con **Gulp**, incluyendo compilación de Sass, minificación de JS y un pipeline de optimización/conversión de imágenes (JPG, WebP y AVIF) con **Sharp**.
  
